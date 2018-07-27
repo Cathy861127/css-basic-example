@@ -1,0 +1,67 @@
+/*=============================================
+=                   GENERAL                   =
+=============================================*/
+
+* {
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+/*=============================================
+=                  SELECTORS                  =
+=============================================*/
+
+/*=============================================
+=                  BOX-MODEL                  =
+=============================================*/
+
+.box {
+    width: 400px;
+    background: royalblue;
+    border: 3px solid black
+}
+
+.box>* {
+    margin: 0;
+}
+
+/*=============================================
+=                   DISPLAY                   =
+=============================================*/
+
+.display-box {
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    border: 1px solid black;
+}
+
+/*=============================================
+=                  POSITION                   =
+=============================================*/
+
+.relative-btn {
+    border: none;
+    height: 40px;
+    color: white;
+    padding: 0 20px;
+    background: #30c39e;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2)
+}
+
+.relative-btn:hover {
+    background: #0085ad;
+}
+
+.position-box {
+    width: 200px;
+    height: 200px;
+    background: tomato;
+    border: 1px solid black;
+}
+
+.inner-box {
+    width: 50px;
+    height: 50px;
+    background: orange;
+}
