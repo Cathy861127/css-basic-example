@@ -2,7 +2,17 @@
 =                   GENERAL                   =
 =============================================*/
 
-* {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a,
+button,
+section {
     font-family: 'Microsoft JhengHei', sans-serif;
 }
 
@@ -64,4 +74,24 @@
     width: 50px;
     height: 50px;
     background: orange;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+}
+
+.card-header>img {
+    display: block;
+}
+
+.card-body {
+    padding: 10px 10px;
+}
+
+.card-body h4,
+.card-body p {
+    margin-top: 3px;
+    margin-bottom: 3px;
 }

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>定位模式</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="./css/basic.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -19,7 +21,9 @@
     <section>
         <h1>Relative</h1>
         <p>設定下方的按鈕在hover後移動位置</p>
-        <button class="relative-btn">Hover Me!</button>
+        <button class="relative-btn">Hover Me
+            <i class="fas fa-hand-point-up"></i>
+        </button>
     </section>
     <section>
         <h1>Absolute</h1>
@@ -27,9 +31,34 @@
         <div class="position-box">
             <div class="inner-box"></div>
         </div>
+        <p>將下方卡片的按鈕定位到圖片的右下角</p>
+        <div class="card">
+            <div class="card-header">
+                <img width="100%" src="https://picsum.photos/600/400?image=1070" alt="" class="card-img">
+                <div class="card-btns">
+                    <button>
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button>
+                        <i class="fas fa-thumbs-up"></i>
+                    </button>
+                    <button>
+                        <i class="fab fa-facebook"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="card-body">
+                <h4>Card Title</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate veritatis illo expedita a ab officiis
+                    vero! Eaque, voluptatibus quam. Officia recusandae voluptate minima expedita commodi, vero hic ut alias
+                    porro?
+                </p>
+            </div>
+        </div>
     </section>
     <section>
         <h1>Fixed</h1>
+        <p>製作一個置底的方塊</p>
     </section>
 </body>
 
